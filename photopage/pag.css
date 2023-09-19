@@ -1,0 +1,78 @@
+#galeria{
+  background-color: grey;
+}
+#mitarjeta {
+    position: absolute;
+    top: 200px;    /* ajusto  posición vertical */
+    right: 1px;  /*ajusto posición horizontal */
+    width: 330%;
+    background-color: rgb(179, 172, 172);
+  }
+  #camera{
+    position: absolute;
+    right: 1px;
+  }
+
+  #mycard{
+    position: absolute;
+    top: 300px;   
+    left: 1px;  
+    width: 200%;
+    background-color: rgb(179, 172, 172);
+
+  }
+  #galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Usa un valor mínimo de 400px por columna */
+    gap: 2px;
+  }
+
+ #carrusel{
+  height: 1000px;
+  width: 1000px;
+  top: 50px; /* saca esta linea si el boton de Ivan no se pone verde */
+ }
+
+.carousel-inner img{
+  width: 100px; /* Ancho deseado */
+  height: 400px; /* Alto deseado */
+  object-fit: cover;
+ 
+}
+#hola{
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+  top: -550px;
+ 
+}
+#equipo{
+position: relative;
+top:-220px;  /* esta tamb sacala */
+background-color: gray;
+}
+
+/* Cambiar el color de fondo de los botones de Contact a verde al pasar el cursor */
+#contact-button:hover {
+  background-color: rgb(42, 144, 42);
+  color: white;
+}
+
+footer{
+  border:0cap;
+  background-color: grey;
+  top: -500px;
+}
+#carouselExampleControls{
+  top: -420px;
+}
+#titulo{
+  font-family: serif;
+}
+#frasesara {
+  position: relative;
+  text-align: center;
+  top: -200px;
+  font-size: 25px; /* Ajusta el tamaño de fuente según tus preferencias */
+  font-style: italic; /* Establece la letra en cursiva */
+}
